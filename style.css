@@ -1,0 +1,36 @@
+html {
+	font-family: sans-serif;
+}
+p {
+	color: blue;
+}
+button {
+    width: 10%;
+	color: #333;
+  	font-size: 18px;
+	margin: 0;
+	padding-left: 10px;
+    padding: 6px;
+}
+.add input{
+	background-color: #abd5ea;
+	color: #333;
+  	font-size: 18px;
+	line-height: 30px;
+	margin: 0;
+	padding-left: 10px;
+}
+.check input{
+	background-color: #abd5ea;
+	color: #333;
+  	font-size: 18px;
+	line-height: 30px;
+	margin: 0;
+	padding-left: 10px;
+}
+.card {
+ background-color: dodgerblue;
+  padding: 1rem;
+  height: 4rem;
+  width: 100%;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Dictionar</title>
+	</head>
+	<body>
+		<center>
+			<h1>Dictionar</h1>
+			<div class="card">
+				<div class="add">
+					<input type="text" id="wordToAdd" placeholder="Please enter a word" onclick="value=''">
+					<button type="submit" value="Add to dictionary" onclick="addWord()">Add to dictionary</button><br>
+				</div>
+			</div>
+			<p id="printAdd"></p>
+			<div class="card">
+				<div class="check">
+					<input type="text" id="wordToCheck" placeholder="Search in the dictionary..." onclick="value=''">
+					<button type="submit" onclick="searchWord()">Search</button><br>
+				</div>
+			</div>
+			<p id="printCheck"></p>
+		</center>
+		<script type="text/javascript" src="script.js">
+		</script>
+	</body>
+</html>
